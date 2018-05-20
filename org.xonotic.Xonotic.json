@@ -1,0 +1,125 @@
+{
+  "app-id":"org.xonotic.Xonotic",
+  "command":"xonotic",
+  "runtime":"org.freedesktop.Platform",
+  "runtime-version":"1.6",
+  "sdk":"org.freedesktop.Sdk",
+  "finish-args":[
+    "--share=ipc",
+    "--socket=x11",
+    "--socket=wayland",
+    "--device=dri",
+    "--share=network",
+    "--socket=pulseaudio",
+    "--persist=.xonotic"
+  ],
+  "cleanup":[
+    "/xonotic/*.git",
+    "/xonotic/*/*.git",
+    "/xonotic/*/*.c",
+    "/xonotic/*/*.h",
+    "/xonotic/*/*.cpp",
+    "/xonotic/*/.travis*",
+    "/xonotic/data.old",
+    "/xonotic/d0_blind_id",
+    "/xonotic/darkplaces/*.props",
+    "/xonotic/darkplaces/*.sln",
+    "/xonotic/darkplaces/*.vcxproj",
+    "/xonotic/darkplaces/*.vcproj",
+    "/xonotic/darkplaces/DPiOS.xcodeproj",
+    "/xonotic/darkplaces/Darkplaces.app",
+    "/xonotic/darkplaces/build-obj",
+    "/xonotic/gmqcc/tests",
+    "/xonotic/gmqcc/doc"
+  ],
+  "modules":[
+    {
+      "name":"Xonotic",
+      "buildsystem":"simple",
+      "build-commands": [
+        "./all compile -r"
+      ],
+      "build-options": {
+        "build-args": [
+          "--share=network"
+        ]
+      },
+      "sources":[
+        {
+          "type":"git",
+          "url":"git://git.xonotic.org/xonotic/xonotic.git",
+          "commit": "b0fef534526f470a1b3fc97f61206d454889656c",
+          "tag": "xonotic-v0.8.2"
+        },
+        {
+          "type":"git",
+          "url":"git://git.xonotic.org/xonotic/xonotic-data.pk3dir.git",
+          "commit": "f40c6183c03a3bc77b26307f23ec074673700723",
+          "tag": "xonotic-v0.8.2",
+          "dest": "data/xonotic-data.pk3dir"
+        },
+        {
+          "type":"git",
+          "url":"git://git.xonotic.org/xonotic/xonotic-music.pk3dir.git",
+          "commit": "89bd037ad5d7c35fef606f5860d13b8fdbda8e88",
+          "tag": "xonotic-v0.8.2",
+          "dest": "data/xonotic-music.pk3dir"
+        },
+        {
+          "type":"git",
+          "url":"git://git.xonotic.org/xonotic/xonotic-nexcompat.pk3dir.git",
+          "commit": "20716dabbb34bf61a57a59226b1f9d21c23814a7",
+          "tag": "xonotic-v0.8.2",
+          "dest": "data/xonotic-nexcompat.pk3dir"
+        },
+        {
+          "type":"git",
+          "url":"git://git.xonotic.org/xonotic/xonotic-maps.pk3dir.git",
+          "commit": "b228dbbe38b435312130660a713be6073173c0f6",
+          "tag": "xonotic-v0.8.2",
+          "dest": "data/xonotic-maps.pk3dir"
+        },
+        {
+          "type":"git",
+          "url":"git://git.xonotic.org/xonotic/darkplaces.git",
+          "commit": "c4fcd15162dfb3e4f467a35d6a827611b8ac9d42",
+          "tag": "xonotic-v0.8.2",
+          "dest": "darkplaces"
+        },
+        {
+          "type":"git",
+          "url":"git://git.xonotic.org/xonotic/d0_blind_id.git",
+          "commit": "f5cce91ecfbd12243a7bde9119ee1b7b728816b6",
+          "tag": "xonotic-v0.8.2",
+          "dest": "d0_blind_id"
+        },
+        {
+          "type":"git",
+          "url":"git://git.xonotic.org/xonotic/gmqcc.git",
+          "commit": "167207e98c1f1253f69bc044aafc9cbea6bccf36",
+          "tag": "xonotic-v0.8.2",
+          "dest": "gmqcc"
+        }
+      ],
+      "post-install": [
+        "ls",
+        "echo 'Installing...'",
+        "mkdir -p /app/xonotic",
+        "mv * /app/xonotic/"
+      ]
+    },
+    {
+      "name": "pkg-bits",
+      "buildsystem": "simple",
+      "sources": [
+        {
+          "type": "file",
+          "path": "xonotic.sh"
+        }
+      ],
+      "build-commands": [
+        "install -Dm755 xonotic.sh /app/bin/xonotic"
+      ]
+    }
+  ]
+}
