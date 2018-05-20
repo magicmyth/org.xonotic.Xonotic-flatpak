@@ -1,6 +1,6 @@
 {
   "app-id":"org.xonotic.Xonotic",
-  "command":"xonotic",
+  "command":"xonotic-sdl",
   "runtime":"org.freedesktop.Platform",
   "runtime-version":"1.6",
   "sdk":"org.freedesktop.Sdk",
@@ -13,31 +13,13 @@
     "--socket=pulseaudio",
     "--persist=.xonotic"
   ],
-  "cleanup":[
-    "/xonotic/*.git",
-    "/xonotic/*/*.git",
-    "/xonotic/*/*.c",
-    "/xonotic/*/*.h",
-    "/xonotic/*/*.cpp",
-    "/xonotic/*/.travis*",
-    "/xonotic/data.old",
-    "/xonotic/d0_blind_id",
-    "/xonotic/darkplaces/*.props",
-    "/xonotic/darkplaces/*.sln",
-    "/xonotic/darkplaces/*.vcxproj",
-    "/xonotic/darkplaces/*.vcproj",
-    "/xonotic/darkplaces/DPiOS.xcodeproj",
-    "/xonotic/darkplaces/Darkplaces.app",
-    "/xonotic/darkplaces/build-obj",
-    "/xonotic/gmqcc/tests",
-    "/xonotic/gmqcc/doc"
-  ],
   "modules":[
     {
       "name":"Xonotic",
       "buildsystem":"simple",
       "build-commands": [
-        "./all compile -r"
+        "./all compile -r",
+        "make install PREFIX=/app"
       ],
       "build-options": {
         "build-args": [
@@ -102,10 +84,13 @@
         }
       ],
       "post-install": [
-        "ls",
-        "echo 'Installing...'",
-        "mkdir -p /app/xonotic",
-        "mv * /app/xonotic/"
+        "install -dm755 /app/share/applications",
+        "sed -e 's$Name=Xonotic (SDL)$Name=Xonotic$' -e 's$Icon=/usr/share/pixmaps/xonotic.png$Icon=org.xonotic.Xonotic$' -e 's$Exec=/usr/bin/xonotic-sdl$Exec=/app/bin/xonotic-sdl$' misc/logos/xonotic-sdl.desktop > /app/share/applications/org.xonotic.Xonotic.desktop",
+        "sed -e 's$Icon=/usr/share/pixmaps/xonotic.png$Icon=org.xonotic.Xonotic$' -e 's$Exec=/usr/bin/xonotic-glx$Exec=/app/bin/xonotic-glx$' misc/logos/xonotic-glx.desktop > /app/share/applications/org.xonotic.Xonotic-glx.desktop",
+        "for icon_size in 16 22 24 32 48 64 128 256 512; do
+          install -d /app/share/icons/hicolor/${icon_size}x${icon_size}/apps
+          install -m644 misc/logos/icons_png/xonotic_${icon_size}.png /app/share/icons/hicolor/${icon_size}x${icon_size}/apps/org.xonotic.Xonotic.png
+        done"
       ]
     },
     {
@@ -114,11 +99,11 @@
       "sources": [
         {
           "type": "file",
-          "path": "xonotic.sh"
+          "path": "org.xonotic.Xonotic.appdata.xml"
         }
       ],
       "build-commands": [
-        "install -Dm755 xonotic.sh /app/bin/xonotic"
+        "install -Dm644 org.xonotic.Xonotic.appdata.xml /app/share/appdata/org.xonotic.Xonotic.appdata.xml"
       ]
     }
   ]

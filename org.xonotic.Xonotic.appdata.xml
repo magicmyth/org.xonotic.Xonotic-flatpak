@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.xonotic.Xonotic.desktop</id>
+  <name>Xonotic</name>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0+</project_license>
+  <developer_name>Team Xonotic</developer_name>
+  <summary>A Free, standalone first person shooter video game</summary>
+  <description>
+    <p>
+      Xonotic is an addictive, arena-style first person shooter with crisp movement and a wide array of weapons. It combines intuitive mechanics with in-your-face action to elevate your heart rate. Xonotic is and will always be free-to-play.
+    </p>
+  </description>
+  <url type="homepage">http://www.xonotic.org</url>
+  <screenshots>
+    <screenshot type="default">
+      <image>http://www.xonotic.org/m/uploads/2012/07/frontpage_005.jpg</image>
+    </screenshot>
+    <screenshot>
+      <image>http://www.xonotic.org/m/uploads/2012/07/frontpage_021.jpg</image>
+    </screenshot>
+    <screenshot>
+      <image>http://www.xonotic.org/m/uploads/2012/07/frontpage_008.jpg</image>
+    </screenshot>
+  </screenshots>
+  <content_rating type="oars-1.0">
+    <content_attribute id="violence-cartoon">none</content_attribute>
+    <content_attribute id="violence-fantasy">intense</content_attribute>
+    <content_attribute id="violence-realistic">none</content_attribute>
+    <content_attribute id="violence-bloodshed">intense</content_attribute>
+    <content_attribute id="violence-sexual">none</content_attribute>
+    <content_attribute id="drugs-alcohol">none</content_attribute>
+    <content_attribute id="drugs-narcotics">none</content_attribute>
+    <content_attribute id="drugs-tobacco">none</content_attribute>
+    <content_attribute id="sex-nudity">none</content_attribute>
+    <content_attribute id="sex-themes">none</content_attribute>
+    <content_attribute id="language-profanity">mild</content_attribute>
+    <content_attribute id="language-humor">none</content_attribute>
+    <content_attribute id="language-discrimination">none</content_attribute>
+    <content_attribute id="social-chat">intense</content_attribute>
+    <content_attribute id="social-info">none</content_attribute>
+    <content_attribute id="social-audio">none</content_attribute>
+    <content_attribute id="social-location">none</content_attribute>
+    <content_attribute id="social-contacts">none</content_attribute>
+    <content_attribute id="money-purchasing">none</content_attribute>
+    <content_attribute id="money-gambling">none</content_attribute>
+  </content_rating>
+</component>
