@@ -21,11 +21,6 @@
         "./all compile -r",
         "make install PREFIX=/app"
       ],
-      "build-options": {
-        "build-args": [
-          "--share=network"
-        ]
-      },
       "sources":[
         {
           "type":"git",
@@ -33,6 +28,7 @@
           "commit": "b0fef534526f470a1b3fc97f61206d454889656c",
           "tag": "xonotic-v0.8.2"
         },
+        "xonotic-pk3.sources.json",
         {
           "type":"git",
           "url":"git://git.xonotic.org/xonotic/xonotic-data.pk3dir.git",

@@ -1,0 +1,164 @@
+  [
+    {
+      "type": "file",
+      "dest": "data",
+      "url": "http://beta.xonotic.org/autobuild-bsp/_hudsetup-d81cd9ea35dbeed57a09863cff216cd34a02c583-3ecd1f9717987ba4f9e9f1864198acbbfd910f8a.pk3",
+      "sha256": "7e41fd9380d75a3988594a052c46242f84ea996a20aeb8ef69cb0cd845a2b0ac"
+    },
+    {
+      "type": "file",
+      "dest": "data",
+      "url": "http://beta.xonotic.org/autobuild-bsp/afterslime-85fee0f6dc9d118230db802a06f0ef1d33510e18-a158dee027703e7d2533baee1c5e332ac91acbf1.pk3",
+      "sha256": "8f308d6c8dcf4c56c7b83e0fd4ee346376f31bd09b6ce562c25e2507758b6d7e"
+    },
+    {
+      "type": "file",
+      "dest": "data",
+      "url": "http://beta.xonotic.org/autobuild-bsp/atelier-7eb9268f0a68f80be8d617ecab457f345a185499-d4239a463f53a362a7d7bdfa80db67e2c5608232.pk3",
+      "sha256": "b35cc1f20b79b65688ea94f25d7fdb7a8a0ec05133b3cf9c3e7065946a393d42"
+    },
+    {
+      "type": "file",
+      "dest": "data",
+      "url": "http://beta.xonotic.org/autobuild-bsp/boil-433553f35a36afc28d825ba02b116f54b2b4988d-3a74869bedcc611d4f67e1dd50f9b79dbe45900b.pk3",
+      "sha256": "9859734172ed09a989de1d8ab6ffb9738e46e7b4bae087ef83b5dbfa2b4b17f2"
+    },
+    {
+      "type": "file",
+      "dest": "data",
+      "url": "http://beta.xonotic.org/autobuild-bsp/catharsis-75ee2954928b51afb9b2133e6b3f06ed46c91e9a-3531f0c07724f64acd600509f2c9f2723e951c20.pk3",
+      "sha256": "7d3bcc0d55b3666713110f53a1e6a0a420f07044e7bd12d88256e9063ddbdfa0"
+    },
+    {
+      "type": "file",
+      "dest": "data",
+      "url": "http://beta.xonotic.org/autobuild-bsp/courtfun-3339f5f5600d0b02070b6eded9853a8f93ba1def-9b55547e32dc084e4e7af8984ddc191db8b9202c.pk3",
+      "sha256": "f79626b23ce25ec76d2b9da33a4eb63ef5b548f58fcca574c5ce2ecf1d0d4d2f"
+    },
+    {
+      "type": "file",
+      "dest": "data",
+      "url": "http://beta.xonotic.org/autobuild-bsp/dance-b4933267fec1c72a9722af812959098ca7395d80-be6a52f2bf90084dbe8dad56e92af227632415fe.pk3",
+      "sha256": "df9953c89e042f7b06f2eab40f901522792b1f53b23ab35fbf1322c65d98f5fc"
+    },
+    {
+      "type": "file",
+      "dest": "data",
+      "url": "http://beta.xonotic.org/autobuild-bsp/darkzone-d25cd8974981f29adb75a7189720b244c2aab3c6-26e88d2cb9c78f99380acc7aa95e43c087ddea77.pk3",
+      "sha256": "1fbbe68df3a7a6069fd2159fc4ae47058758dc9933d5e31073b575609a0f0ca9"
+    },
+    {
+      "type": "file",
+      "dest": "data",
+      "url": "http://beta.xonotic.org/autobuild-bsp/drain-059ada69294f037329c18e3d150636240ecf7768-8837784ca8b8fd93b65046fa663d8e02d9bd1bf3.pk3",
+      "sha256": "9679ab62f62a9439b29e336cec7aad50cb7823884453dce867208d22fe9d5973"
+    },
+    {
+      "type": "file",
+      "dest": "data",
+      "url": "http://beta.xonotic.org/autobuild-bsp/erbium-fed220fd7cdae7a8ee2f354eee93b3e705b03f09-618e36f548c4fbd340d7b2a9745e7908f9aeba90.pk3",
+      "sha256": "c8d1df371c2f9e5ae763b0ab8b33b423b6791a7815977179981e941fa920a3ad"
+    },
+    {
+      "type": "file",
+      "dest": "data",
+      "url": "http://beta.xonotic.org/autobuild-bsp/finalrage-5227c4879e30fe2aa4bd34460c6d9b0508942b0e-aef16cc89dd97d27626a30dea0406b4545e3535f.pk3",
+      "sha256": "25af323775b17c3a4632b4e80633d4ca215b30f439abb13420ffd0a0dd5ce6d7"
+    },
+    {
+      "type": "file",
+      "dest": "data",
+      "url": "http://beta.xonotic.org/autobuild-bsp/fuse-0004e7ccf5c15be4acad7bab0e77056c97150c9b-2617ac26621da2f6f61b89821f0c496e344d3195.pk3",
+      "sha256": "df24b1dc50402345dbd922de90866bc40b205bea93981627a5bf6b84f263ed0e"
+    },
+    {
+      "type": "file",
+      "dest": "data",
+      "url": "http://beta.xonotic.org/autobuild-bsp/glowplant-c6f986ae926c1d026b6fb1e17cb175f056c07141-b1729fe7217cc0eb8405874e20b36e4166c616dd.pk3",
+      "sha256": "b6b9776b4116a24e1080f13122267680c57268d1e9a1ae4b901f229989dda1e1"
+    },
+    {
+      "type": "file",
+      "dest": "data",
+      "url": "http://beta.xonotic.org/autobuild-bsp/implosion-95bf28afd74415abe3491c870a5d67be5f3491ae-c2f646910c24daadf6c24766a5e9ac5e311d12ff.pk3",
+      "sha256": "a3549c114c29ee977eebcb05c20ddd015dbd67f0aac55c286b0c0ba2b9c1ba9e"
+    },
+    {
+      "type": "file",
+      "dest": "data",
+      "url": "http://beta.xonotic.org/autobuild-bsp/leave_em_behind-f7992bc601ef7429260a09dfb2a6dd0aea351462-c8b0f55d69a4c1741a383660fa911682bf0c0000.pk3",
+      "sha256": "51ac7b99ea429030b18f8ac349aaae6b70410ecb2237fed09e26fbc10f7368a3"
+    },
+    {
+      "type": "file",
+      "dest": "data",
+      "url": "http://beta.xonotic.org/autobuild-bsp/nexballarena-38598d432c7e81179724669a8b78f33ec38ccec0-53a9ecab83b4576db593e9c0715e90b6a8eda1c8.pk3",
+      "sha256": "e55edfd80b5097d41a6ddb1b7221d6add1f77d68f762caf9194df0f465ef3694"
+    },
+    {
+      "type": "file",
+      "dest": "data",
+      "url": "http://beta.xonotic.org/autobuild-bsp/oilrig-96b6e1a3c50e9804310f78bd59b3260f78731589-64ffd2624c68bc073ffef50d9c56ab28b747aaa2.pk3",
+      "sha256": "fc6cc244e8ba8dda2415f55f08f930e29135d07b89577035a5ed5fcd3bb14ec9"
+    },
+    {
+      "type": "file",
+      "dest": "data",
+      "url": "http://beta.xonotic.org/autobuild-bsp/runningman-1d6005e4b84d1ecf44974e78230a8ab7a076a5a3-4ad77a274608fb7cf82ad8c4d3c39e944da0a8a3.pk3",
+      "sha256": "18aee6a7e0c1bb6ad18b27aaf10069f55557403b07f8160ff31cd5a4d8abdd5e"
+    },
+    {
+      "type": "file",
+      "dest": "data",
+      "url": "http://beta.xonotic.org/autobuild-bsp/runningmanctf-5d7e76f7f5397ac79dcdac515bb1361dfa9a4ac5-f041f69a2c4199cf13276079e84b62147038a4db.pk3",
+      "sha256": "ee37417b84c7065522cac72eb05e0e4269abd6f06d877fd7058c28ef75057d06"
+    },
+    {
+      "type": "file",
+      "dest": "data",
+      "url": "http://beta.xonotic.org/autobuild-bsp/silentsiege-2f77a47f96958051717e5d0fec7854d95ccb2e10-70f59b1d260cffa16dcf14c13f6b984e8c90ebd9.pk3",
+      "sha256": "e86e11d5c4224b22b97ae3d01b7cd1aaa8186fe158bbad407fc1262d6223238d"
+    },
+    {
+      "type": "file",
+      "dest": "data",
+      "url": "http://beta.xonotic.org/autobuild-bsp/solarium-d6e38273105e2c48a7be40385441f6876594101a-1f5f45ba317f293ee19bed11768da61009605aef.pk3",
+      "sha256": "ee49c75c27e533cfe2eb0250397ecd1b23af426f05bd0da67cd3e46634cffbcc"
+    },
+    {
+      "type": "file",
+      "dest": "data",
+      "url": "http://beta.xonotic.org/autobuild-bsp/space-elevator-8fee63747275a98d2d8f96abf4183b7e6af418f9-f6e6eb6134097fe78212581b06f2463a06c1940e.pk3",
+      "sha256": "6d1395199e3f9c327180c8914f788cabd9d1fcd1953e4e8175af9cc3bbdbfa2b"
+    },
+    {
+      "type": "file",
+      "dest": "data",
+      "url": "http://beta.xonotic.org/autobuild-bsp/stormkeep-328ec21d1191625c181730fe36b6a24b9c339af2-88f26c8cba2f2f39c28f8d4a777f9d16ddb58a9b.pk3",
+      "sha256": "1bd40ecc69eac89d52db17e57b3a184d6d424f91e8c0b58d6d39cbad37822237"
+    },
+    {
+      "type": "file",
+      "dest": "data",
+      "url": "http://beta.xonotic.org/autobuild-bsp/techassault-bf8a3cd8d4172e5bfb76dc12033a6ffd7e818ae8-ecde4ee22d9851de36d7f7781a0889606e6fda8a.pk3",
+      "sha256": "87bbf00d17322044ea54c8ba396ab7bf7ba84aa1d705357e6dc829b1856abc55"
+    },
+    {
+      "type": "file",
+      "dest": "data",
+      "url": "http://beta.xonotic.org/autobuild-bsp/vorix-830a188d28dc5cecea9873b2955cc3a4fca4f8c1-c8634f234b4c90cc7846d5c6808d6d36e1b78696.pk3",
+      "sha256": "6dcc26c22f7780a22d521a9e429bb9a12ebdd27b0bc976d26614c2f608060f4b"
+    },
+    {
+      "type": "file",
+      "dest": "data",
+      "url": "http://beta.xonotic.org/autobuild-bsp/warfare-012abfbfbec8f77d2c070e0950241c01f2c54a9a-4160a97f7e8d069f93653528a4f5b7ec5c3169e3.pk3",
+      "sha256": "93b715c91479cc3b40f1d285a69d2a4fe12d36a5f79e9afb28c74d966b78373f"
+    },
+    {
+      "type": "file",
+      "dest": "data",
+      "url": "http://beta.xonotic.org/autobuild-bsp/xoylent-951947da9c2d5c968df8510e8b59b85c1a835822-b88cef852be79465b3e79b83dbc5daecff972631.pk3",
+      "sha256": "4f53ba249338beb942f997bb08157757500f65e51e874c8a4a9d5a11dbc3fd67"
+    }
+  ]
