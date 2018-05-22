@@ -80,6 +80,8 @@
         }
       ],
       "post-install": [
+        "install -Dm755 gmqcc/gmqcc /app/bin/gmqcc",
+
         "install -dm755 /app/share/applications",
         "sed -e 's$Name=Xonotic (SDL)$Name=Xonotic$' -e 's$Icon=/usr/share/pixmaps/xonotic.png$Icon=org.xonotic.Xonotic$' -e 's$Exec=/usr/bin/xonotic-sdl$Exec=/app/bin/xonotic-sdl$' misc/logos/xonotic-sdl.desktop > /app/share/applications/org.xonotic.Xonotic.desktop",
         "sed -e 's$Icon=/usr/share/pixmaps/xonotic.png$Icon=org.xonotic.Xonotic$' -e 's$Exec=/usr/bin/xonotic-glx$Exec=/app/bin/xonotic-glx$' misc/logos/xonotic-glx.desktop > /app/share/applications/org.xonotic.Xonotic-glx.desktop",
